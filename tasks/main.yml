@@ -18,9 +18,4 @@
     - fits-ws
     - fits-ws-config
   when: fits_ws
-  
-- include: build-fits-site.yml
-  tags:
-    - fits
-    - fits-install
 
